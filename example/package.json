@@ -1,0 +1,10 @@
+{
+    "main": "index.lua",
+    "files": [
+        "**/*.lua"
+    ],
+    "dependencies": {
+        "examplelib": "lib/examplelib",
+        "otherlib": "lib/otherlib"
+    }
+}
