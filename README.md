@@ -13,7 +13,7 @@ The code will compile to the `.out` folder in the same directory.
 
 In this case, `example` is the path to the project root.
 
-**Note:** if a dependency includes its own `main` file, it will compile all the modules into one file. If said dependency already has an entry in the `.out` folder, this will be used. To ignore this, refer to the follownig example:
+**Note:** if a dependency includes its own `main` file, it will compile all the modules into one file. If said dependency already has an entry in the `.out` folder, this will be used. To ignore this, refer to the following example:
 ```
 npm run compile example force
 ```
